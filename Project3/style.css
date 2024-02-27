@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+/* font-family:'Times New Roman', Times, serif; */
+font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  scrollbar-width: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#first h3{
+    font-size: 20px;
+}
+#second{
+    text-align:left;
+    display: flex;
+}
+#third{
+    display: flex;
+    margin: 20px;
+    width: 26%;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight:600;
+}
+#third1{
+    display: flex;
+}
+#thirdin2{
+    display: flex;
+}
+#thirdin2 i{
+    font-size: 20px;
+}
+#more{
+    width: 100%;
+    height: 70px;
+    padding: 40px 0px 0px 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#heading{
+    width: 100%;
+    height: 60%;
+}
+#heading h1{
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 100px;
+    padding:  25px 40px;
+    letter-spacing: -7px;
+    
+}
+#more2{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#morein{
+    display: flex;
+    align-items: center;
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    
+}
+#more2 , h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+#morein h4{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#photosec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+#photo1{
+    width: 50%;
+    height: 100%;
+
+    
+} 
+#photo2{
+    width: 50%;
+    height: 100%;
+    
+
+}
+#photo11,#photo22{
+    height: 77%;
+}
+#photo11,#foot1{
+    padding: 0px 40px;
+}
+#photo22,#foot2{
+    padding-left: 120px;
+    
+
+}
+#photo11 img,#photo22 img{
+    height: 500px;
+    width: 600px;
+}
+#foot1,#foot2{
+    display: flex;
+    
+}
+#text1 h2,#text2 h2{
+    font-weight: 500;
+}
+#text1 h4,#text2 h4{
+font-size: 17px;
+font-weight: 100;
+}
+#arrow1{
+    padding-left: 364px;
+    
+}
+#arrow2{
+    padding-left: 400px;
+}
+#arrow1 i {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    
+}
+#arrow2 i{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}

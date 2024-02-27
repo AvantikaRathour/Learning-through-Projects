@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="input-box">
+        <input type="password" placeholder="password" id="password">
+        <i class="ri-eye-off-fill" id="icon"></i>
+        <!-- <i class="ri-eye-fill"></i>/ -->
+    </div>
+
+
+
+    <script>
+        let password = document.getElementById("password")
+        let icon = document.getElementById("icon")
+        icon.addEventListener("click", function () {
+            if (password.type == "password") {
+                password.type = "text";
+                icon.className = "ri-eye-fill";
+            }
+            else {
+                password.type = "password"
+                icon.className = "ri-eye-off-fill"
+            }
+        })
+    </script>
+</body>
+
+</html>
